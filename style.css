@@ -5,22 +5,22 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #fafad2; /* Light pastel yellow */
+    background-color: #fafad2;
 }
 
 .card {
     background-color: #fff;
     border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    width: 90%; /* Responsive width */
-    max-width: 400px; /* Maximum width */
+    width: 90%;
+    max-width: 400px;
     text-align: center;
-    transition: transform 0.3s; /* Smooth hover effect */
+    transition: transform 0.3s;
 }
 
 .card:hover {
-    transform: scale(1.05); /* Slightly enlarge the card on hover */
+    transform: scale(1.05);
 }
 
 .card-image {
@@ -29,20 +29,20 @@ body {
 }
 
 .card-content {
-    padding: 20px; /* Increased padding for a better look */
+    padding: 20px;
 }
 
 .card-title {
-    font-size: 1.8em; /* Slightly larger title */
+    font-size: 1.8em;
     margin: 0;
-    color: #8B4513; /* Shade of brown */
-    font-weight: bold; /* Bold title */
+    color: #8B4513;
+    font-weight: bold;
 }
 
 .card-description {
     font-size: 1em;
-    color: #5B3A29; /* Darker shade of brown */
-    margin-top: 10px; /* Space between title and description */
-    max-width: 100%; /* Ensure description width is responsive */
-    word-wrap: break-word; /* Break long words */
+    color: #5B3A29;
+    margin-top: 10px;
+    max-width: 100%;
+    word-wrap: break-word;
 }
