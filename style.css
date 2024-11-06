@@ -16,12 +16,10 @@ body {
     width: 90%;
     max-width: 400px;
     text-align: center;
-    transition: transform 0.3s;
+    
 }
 
-.card:hover {
-    transform: scale(1.05);
-}
+ 
 
 .card-image {
     width: 100%;
